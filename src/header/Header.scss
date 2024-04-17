@@ -1,0 +1,190 @@
+$primary1: #fd9c6b;
+$primary2: #625c5c;
+$black: #000000;
+$white: #ffffff;
+
+.header_section {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+
+  .container-fluid {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .nav_container {
+    margin: 0 auto;
+  }
+
+  &.innerpage_header {
+    position: relative;
+    background: linear-gradient(to right, $primary2, $primary2);
+    padding: 10px 0;
+  }
+}
+
+.custom_nav-container {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 20px;
+}
+
+.custom_menu-btn {
+  position: fixed;
+  right: 25px;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $white;
+    box-shadow: 0 0 5px 0 rgba($black, 0.07);
+    z-index: 7;
+    border-radius: 100%;
+    transition: all 0.3s;
+  }
+
+  &.menu_btn-style {
+    &::before {
+      width: 100vh;
+      height: 100vh;
+      background-color: $primary2;
+      transform: scale(5);
+      border-radius: 0;
+    }
+  }
+}
+
+.custom_menu-btn button {
+  width: 50px;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  position: relative;
+  z-index: 999;
+  margin: 0;
+}
+
+.custom_menu-btn button span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: $black;
+  margin: 2.5px 0;
+  transition: all 0.3s;
+  border-radius: 15px;
+}
+
+.custom_menu-btn .s-2 {
+  transition: all 0.1s;
+}
+
+.menu_btn-style button span {
+  background-color: $white;
+}
+
+.menu_btn-style button .s-1 {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.menu_btn-style button .s-2 {
+  transform: translateX(100px);
+}
+
+.menu_btn-style button .s-3 {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  z-index: 9;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  font-size: 60px;
+}
+
+.overlay a {
+  padding: 0px;
+  text-decoration: none;
+  font-size: 22px;
+  color: $white;
+  display: block;
+  transition: 0.3s;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  opacity: 0;
+
+  &:hover {
+    color: $primary1; // $primary1 변수는 정의되지 않았습니다. 프로젝트에 맞게 수정해야 합니다.
+  }
+}
+
+.overlay-content {
+  position: relative;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  z-index: 99;
+}
+
+.menu_width {
+  width: 100%;
+}
+
+.menu_width.overlay a {
+  opacity: 1;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: initial;
+}
+
+.btn,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.navbar-brand {
+  margin-top: 10px;
+
+  span {
+    font-size: 24px;
+    font-weight: 700;
+    color: $white;
+    text-transform: uppercase;
+  }
+}
