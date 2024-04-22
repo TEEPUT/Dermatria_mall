@@ -1,12 +1,17 @@
 import React from 'react';
-import Header from './header/Header';
-import Slider from './slider/Slider'
+import Navber from './header/navbar/navbar';
+import Slider from './header/slider/slider';
+import About  from './contant/about/about';
+import StopSection from './etc/stop_section';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Navber />
       <Slider />
+      <StopSection />
+
+      <About />
     </div>
   );
 }

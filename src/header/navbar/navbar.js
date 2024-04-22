@@ -1,8 +1,8 @@
 import React from 'react';
-import './Header.css';
-import './Header.scss';
+import './navber.css';
+import './navber.scss';
 
-const Header = () => {
+const navber = () => {
   const openNav = () => {
     document.getElementById("myNav").classList.toggle("menu_width");
     document.querySelector(".custom_menu-btn").classList.toggle("menu_btn-style");
@@ -38,4 +38,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default navber;

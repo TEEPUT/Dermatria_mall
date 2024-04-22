@@ -1,6 +1,5 @@
 import React from 'react';
-import './Slider.css';
-import './Slider.scss';
+import './slider.css';
 
 const SliderSection = () => {
   return (
