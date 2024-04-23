@@ -1,59 +1,62 @@
-.recent-posts {
-    padding: 65px 0 100px;
-  }
-  
-  .recent-posts .btn {
+@font-face {
+    font-family: 'jua';
+    src: url('./BMJUA_ttf.ttf') format('truetype');
+}
+
+.recent-posts .btn {
     margin-top: 60px;
-  }
-  
-  .recent-posts .row .col-lg-6:nth-of-type(odd) .post-thumb {
+}
+
+.recent-posts .row .col-lg-6:nth-of-type(odd) .post-thumb {
     margin-top: 30px;
-  }
-  
-  .recent-posts .row .col-lg-6:nth-of-type(even) .post-thumb {
+}
+
+.recent-posts .row .col-lg-6:nth-of-type(even) .post-thumb {
     margin-bottom: 30px;
-  }
-  
-  .single-rpost {
+}
+
+.single-rpost {
     margin: 35px 0 0;
-  }
-  
-  .post-thumb {
+}
+
+.post-thumb {
     flex: 0 0 273px;
-  }
-  
-  .post-content {
+}
+
+.post-content {
     color: #ccc;
-  }
-  
-  .post-content time {
+}
+
+.post-content time {
     font-size: 14px;
     color: #ccc;
-  }
-  
-  .post-content h3 {
+}
+
+.post-content h3 {
     margin: 10px 0 2px;
-  }
-  
-  .post-content h3 a {
+}
+
+.post-content h3 a {
     color: #26264b;
-    font-weight: 600;
-  }
-  
-  .post-content h3 a:hover {
-    font-weight: 700;
+    font-weight: 400;
     text-decoration: none;
-  }
-  
-  .post-content a {
+    font-family: 'jua';
+}
+
+.post-content h3 a:hover {
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.post-content a {
     color: #ccc;
-  }
-  
-  .post-content a:hover {
+}
+
+.post-content a:hover {
     color: #26264b;
-  }
-  
-  .post-content .post-btn {
+}
+
+.post-content .post-btn {
     color: #6e6e6e;
     text-align: center;
     font-size: 10px;
@@ -63,9 +66,9 @@
     line-height: 38px;
     border-radius: 50%;
     background-color: whitesmoke;
-  }
-  
-  .post-content .post-btn:hover {
+}
+
+.post-content .post-btn:hover {
     color: #fff;
     background-color: #ee1515;
-  }
+}

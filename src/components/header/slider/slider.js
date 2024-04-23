@@ -1,5 +1,7 @@
 import React from 'react';
 import './slider.css';
+import AOS from 'aos';
+
 
 const SliderSection = () => {
   return (

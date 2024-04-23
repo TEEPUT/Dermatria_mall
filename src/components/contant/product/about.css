@@ -1,8 +1,11 @@
 @font-face {
   font-family: 'jua';
-  src: url('./octin_sports_rg.ttf') format('truetype');
+  src: url('./BMJUA_ttf.ttf') format('truetype');
 }
  
+ *{
+  font-family: 'jua';
+ }
  .h1_tagge {
   font-family: jua;
   text-align: center;
@@ -160,3 +163,6 @@
   border: solid 1px #26264b;
 }
 
+.title-primary {
+  color: red;
+}

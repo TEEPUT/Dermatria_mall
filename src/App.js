@@ -9,7 +9,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './components/responsive.css';
 
-
 function App() {
   return (
     <div className="App">
@@ -21,6 +20,8 @@ function App() {
       <StopSection />
 
       <Offer />
+      <StopSection />
+
       <Footer />
     </div>
   );

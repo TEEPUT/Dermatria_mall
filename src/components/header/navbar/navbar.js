@@ -1,5 +1,7 @@
 import React from 'react';
 import './navber.css';
+import AOS from 'aos';
+
 
 
 const navber = () => {
