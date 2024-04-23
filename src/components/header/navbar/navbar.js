@@ -1,6 +1,6 @@
 import React from 'react';
 import './navber.css';
-import './navber.scss';
+
 
 const navber = () => {
   const openNav = () => {

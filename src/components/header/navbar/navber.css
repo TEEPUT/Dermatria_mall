@@ -1,7 +1,8 @@
 @font-face {
   font-family: 'jua';
-  src: url('../../../public/fonts/octin_sports_rg.ttf') format('truetype');
+  src: url('./octin_sports_rg.ttf') format('truetype');
 }
+
 /*
 출처 : https://beomdolee.com/continuous-kor/
 출처 : https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288252&menuNo=200023
@@ -42,6 +43,8 @@
     width: 50px;
     height: 50px;
   }
+  
+
   
   .custom_menu-btn::before {
     content: "";

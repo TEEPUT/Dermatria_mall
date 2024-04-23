@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'jua';
+  src: url('./octin_sports_rg.ttf') format('truetype');
+}
+ 
+ .h1_tagge {
+  font-family: jua;
+  text-align: center;
+ }
+
+ .featured {
+  padding: 80px 0;
+  background-color: #fafafa;
+}
+
+.featured p {
+  margin: 35px 0 53px;
+}
+
+.featured .media i {
+  font-size: 24px;
+  color: #ee1515;
+}
+
+.featured .media h5 {
+  text-transform: uppercase;
+  color: #26264b;
+}
+
+.featured .btn {
+  margin-top: 80px;
+}
+
+.featured-img {
+  position: relative;
+  height: 530px;
+  margin-top: 60px;
+}
+
+.featured-big {
+  width: 70%;
+  position: absolute;
+  bottom: -33%;
+  right: 0;
+}
+
+.featured-small {
+  width: 45%;
+  position: absolute;
+  bottom: -33%;
+  left: 100px;
+  padding: 25px 25px 0 0;
+  background-color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .featured-big {
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 150;
+  }
+  .featured-small {
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 50;
+    padding: 25px 25px 0 0;
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 1080px) {
+  .featured-big {
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+  }
+  .featured-small {
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    padding: 25px 25px 0 0;
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 800px) {
+  .featured-big {
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .featured-small {
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 25px 25px 0 0;
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 770px) {
+  .featured-big {
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 23%;
+  }
+  .featured-small {
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    padding: 25px 25px 0 0;
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 450px) {
+  .featured-big {
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+  }
+  .featured-small {
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 7%;
+    padding: 25px 25px 0 0;
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 360px) {
+  .featured-big {
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+  }
+  .featured-small {
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 3%;
+    padding: 25px 25px 0 0;
+    background-color: #fff;
+  }
+}
+
+.btn {
+  display: inline-block;
+  border: solid 1px #26264b;
+}
+
