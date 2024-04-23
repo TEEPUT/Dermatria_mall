@@ -72,3 +72,20 @@
     color: #fff;
     background-color: #ee1515;
 }
+
+@media (min-width: 576px){
+    .d-sm-flex {
+        display: flex !important;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 575px){
+    .post-content a {
+        font-size: 100%;
+    }
+
+    .img-fluid {
+        width: 100%;
+    }
+}
