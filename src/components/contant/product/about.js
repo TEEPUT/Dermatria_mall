@@ -8,7 +8,7 @@ function FeaturedSection() {
     <section className="featured">
       <div className="container">
         <div className="row">
-          <div className="col-md-6" data-aos="fade-right" data-aos-delay="400" data-aos-duration="800">
+          <div className="col-md-6">
             <div className="title">
               <h6 className="title-primary">New product</h6>
               <h3 className="title-blue">더마트리아 시그니처</h3>
@@ -27,16 +27,11 @@ function FeaturedSection() {
                 </div>
               </div>
               <div className="media">
-                <div className="media-body">
-                  <h5>재료</h5>
-                  hydration supplement, natural ingredients
-
-                </div>
               </div>
             </div>
             <a href="#" className="btn"><strong>Read More</strong></a>
           </div>
-          <div className="col-md-6" data-aos="fade-left" data-aos-delay="400" data-aos-duration="800">
+          <div className="col-md-6">
             <div className="featured-img">
               <img className="featured-big" src={process.env.PUBLIC_URL + '/images/featured-img1.jpg'} alt="" />
               <img className="featured-small" src={process.env.PUBLIC_URL + '/images/featured-img2.jpg'} alt="" />

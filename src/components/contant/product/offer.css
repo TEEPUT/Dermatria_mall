@@ -2,6 +2,11 @@
     font-family: 'jua';
     src: url('./BMJUA_ttf.ttf') format('truetype');
 }
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.container {
+    font-family: "Lora", serif;
+}
 
 .recent-posts .btn {
     margin-top: 60px;
